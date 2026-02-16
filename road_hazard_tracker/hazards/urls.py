@@ -6,5 +6,5 @@ router = DefaultRouter()
 router.register(r'hazards', HazardViewSet, basename='hazard')
 
 urlpatterns = [
-    path('api/', include(router.urls)),
+    path('api/', include(router.urls)), 
 ]
